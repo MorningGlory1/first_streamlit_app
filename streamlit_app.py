@@ -22,5 +22,5 @@ streamlit.dataframe(fruityvice_normalized)
 streamlite.header('Fruityvice Fruit adivce?')
 Fruit_choice=streamlit.text_input('What fruit you like information about?' 'Kiwi')
 
-imoprt requests
+import requests
 fruityvice.response=requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
